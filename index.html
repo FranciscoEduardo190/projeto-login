@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/md.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href='https://css.gg/user.css' rel='stylesheet'>
+    <link href='https://css.gg/lock.css' rel='stylesheet'>
+    
+<title>Login</title>
+
+</head>
+<body>
+    <main>
+        <section class="meio">
+            <div class="login-image"></div>
+            
+            <div class="end">
+                <h1>login</h1>
+                <p  class="texto">Seja bem-vindo(a) novamente, faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                
+                <form action="after.php" method="post">
+                    <section class="formulario">
+                       <div class="email">
+                           <label for="e-email" > <i class="gg-user"></i> </label>
+                           <input placeholder="e-mail" type="email" name="email" id="e-email">
+                       </div>
+                       <div class="senha">
+                           <label for="e-senha"> <i class="gg-lock"></i> </label>
+                           <input placeholder="senha" type="password" name="senha" id="e-senha">
+                       </div>
+                   </section>
+
+                   <div class="boto">
+                       <input class="bot1" type="submit" value="ENVIAR"> 
+                       <input class="bot2"id="es" type="button" value="Esqueceu da senha ?">
+                   </div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*paleta de cores: verde:#14E02A marrom: #E0842B azul-estranho:#5D2BE0*/
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }                 
+body{
+
+background-color: #5D2BE0;
+
+}
+.login-image{
+    height: 20vh;
+    background-image: url('entrada.jpg');
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    background-position: center;
+}
+main{
+    box-shadow: -6px -6px 7px rgba(0, 0, 0, 0.555), 6px 6px 7px rgba(0, 0, 0, 0.555);
+    width: 60vw;
+    height: 60vh;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8%;
+
+}
+.meio h1{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+
+}
+
+.end{
+    margin: auto;
+    width: 100%;
+}
+.end .texto{
+    width:  auto;
+    margin-left: 3%;
+
+    
+}
+.formulario{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-65%, -60%);
+}
+.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    text-indent:0.5rem ;
+}
+
+.email{
+display: inline-flex;
+margin: 2px auto 5%;
+
+}
+.email label{
+width: 12px;
+height: 9px;
+margin: 5px;
+}
+
+.senha{
+   
+    display: inline-flex;
+  
+
+}
+.senha label{
+   display: inline-flex;
+   margin: 5px;
+ 
+  
+}
+
+
+.boto{
+
+    width: 30%;
+    margin-left: 2%;
+    position: absolute;
+    top: 80%;
+    left: 39%;
+    transform: translate(-90%, -39%);
+    
+}
+.bot1{
+    margin-left: auto;
+    display:inline-block;
+    padding: 15px;
+    margin-top: 8%;
+    border-color: #14E02A;
+    background-color: #14e0289a;
+    border-radius: 10%;
+    width: 150px;
+    height: 50px;
+    border-width: 0.4px;
+}
+.bot2{
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    display:inline-block;
+    padding: 15px;
+    margin-top: 8%;
+    background-color:#14e0289a ;
+    border-width: 0.4px;
+    border-color:#14E02A;
+    border-radius: 10%;
+    
+}
+.bot1:hover, .bot2:hover{
+    background-color:#12ad21;
+    transition: 0.2s;
+}
