@@ -10,24 +10,39 @@ body{
  
  /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
-    body{
-        background-color: rgb(18, 19, 102);
-    }
+
+main{
+    height: 60vh;
+    width: 90vw;
+}
+section.meio > div.login-image{
+float: left;
+width: 30%;
+height: 60vh;
+border-top-right-radius: 0%;
+border-bottom-left-radius: 5%;
+}
+section.meio > div.end{
+float: right;
+width: 65%;
+}
  }
- 
-
-
  
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {
-    body{
-        background-color: rgb(33, 9, 54);
-    }
+
+main{
+    height: 50vh;
+    max-width: 600px;
+}
+section.meio > div.login-image{
+float: left;
+
+height: 50vh;
+border-top-right-radius: 0%;
+border-bottom-left-radius: 5%;
+}
+
+
  }
  
- /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {
-    body{
-        background-color: rgb(8, 2, 14);
-    }
- } 

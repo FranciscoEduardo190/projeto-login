@@ -12,13 +12,6 @@ body{
 background-color: #5D2BE0;
 
 }
-.login-image{
-    height: 20vh;
-    background-image: url('entrada.jpg');
-    border-top-left-radius: 8%;
-    border-top-right-radius: 8%;
-    background-position: center;
-}
 main{
     box-shadow: -6px -6px 7px rgba(0, 0, 0, 0.555), 6px 6px 7px rgba(0, 0, 0, 0.555);
     width: 60vw;
@@ -28,9 +21,20 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 8%;
+    border-radius: 5%;
+    transition: width 0.4s, height 0.4s;
 
 }
+.login-image{ 
+    display: block;
+    height: 20vh;
+   background: red url(entrada.jpg) no-repeat; 
+
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    background-position: center;
+}
+
 .meio h1{
     text-align: center;
     font-family: 'Righteous', cursive;
@@ -38,6 +42,7 @@ main{
 }
 
 .end{
+    display: block;
     margin: auto;
     width: 100%;
 }
@@ -49,6 +54,7 @@ main{
 }
 
 .texto {
+    display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.77rem;
     text-indent:0.5rem ;
