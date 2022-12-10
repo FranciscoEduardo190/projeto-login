@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+ @media only screen and (min-width: 600px) {
+body{
+    
+        background-color: rgb(45, 26, 131);
+    
+}
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    body{
+        background-color: rgb(18, 19, 102);
+    }
+ }
+ 
+
+
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    body{
+        background-color: rgb(33, 9, 54);
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    body{
+        background-color: rgb(8, 2, 14);
+    }
+ } 
