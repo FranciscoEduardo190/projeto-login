@@ -59,3 +59,74 @@ main{
     font-size: 0.77rem;
     text-indent:0.5rem ;
 }
+.dados{
+    margin: 5px 0px;
+ }
+ .email{
+    display: block;  
+    background-color: #E0842B;
+    border-radius: 5px;
+    width: 80%;
+    margin: 5px auto;
+    height:34px ;
+
+  }  
+.material-icons{
+    height: 34px;
+    width: 30px;
+    transform: translateY(5px);
+}
+
+#e-email{
+    padding: 5px;
+    background-color: #fdfdfd96;
+    border-radius: 5px;
+    width: calc(100% - 36px);
+   transform: translateY(-1px);
+}
+
+#e-senha{
+    padding: 5px;
+    background-color: #fdfdfd96;
+    border-radius: 5px;
+    width: calc(100% - 36px);
+    transform: translateX(-1px);
+}
+
+.botao{
+    display: block;
+    max-width: 5px 0px;
+
+} 
+.senha{
+    margin-top: 20px;
+    background-color: #E0842B;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    height:34px ;
+
+}
+.env{
+    margin-top: 14px;
+ display: block;
+ width: 100%;
+ padding: 10px;
+ background-color: #139b21 ;
+ color: white;
+ border-radius: 5px;
+ border-color: 1px;
+} 
+.env:hover{
+    background-color: #052007;
+    border-width: 2px;
+    border-color: #139b21;
+    transition: 0.4s;
+}
+.esq{
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
