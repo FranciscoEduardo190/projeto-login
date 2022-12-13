@@ -76,21 +76,34 @@ main{
     width: 30px;
     transform: translateY(5px);
 }
+#icon-senha{
+margin-left: 5px;
 
+}
+#person-icon{
+    margin-left: 5px;
+}
 #e-email{
+    
     padding: 5px;
     background-color: #fdfdfd96;
     border-radius: 5px;
-    width: calc(100% - 36px);
-   transform: translateY(-1px);
-}
+    width: calc(100% - 39px);
+    transform: translateY(-1.5px) translateX(-6px);
 
+   
+
+}
+#senha-icon{
+    margin-left: 5px;
+}
 #e-senha{
     padding: 5px;
     background-color: #fdfdfd96;
     border-radius: 5px;
-    width: calc(100% - 36px);
-    transform: translateX(-1px);
+   
+    width: calc(100% - 39px);
+    transform: translateY(-1.5px) translateX(-6px);
 }
 
 .botao{
